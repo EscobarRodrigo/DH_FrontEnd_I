@@ -1,0 +1,11 @@
+
+article {
+    background-color: red;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aa1b9bba-88df-4238-8b8c-3c43415d2881/d80h3av-4b61c1cc-f49a-4850-8171-c13f931a9a71.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FhMWI5YmJhLTg4ZGYtNDIzOC04YjhjLTNjNDM0MTVkMjg4MVwvZDgwaDNhdi00YjYxYzFjYy1mNDlhLTQ4NTAtODE3MS1jMTNmOTMxYTlhNzEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.o8qx9tnGAnMefNR7YdIy7BMan6bry2LZz3h0ugNk56w');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 2000px;
+    color: white;
+
+}
