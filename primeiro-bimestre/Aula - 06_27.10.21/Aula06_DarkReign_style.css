@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp%27');
+
+.home {
+font-size: 35px;
+color: white;
+}
+
+body {background-color: #131313;
+
+}
+.material-icons-outlined{
+color: white;
+}
+
+h1 {color: white;
+    font-family: 'Roboto',sans-serif;
+}
+
+.media-picture{
+    height: 900px; /* Altura*/
+    width: 600px; /* Largura*/
+        background-image: url(./DarkReign_Santolouco.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+
+
+    .review-score{
+        color: white;
+        background-color: #e6bd09;
+        padding: 12px;
+        }
+
+h2 {
+    color: steelblue;
+  }
+
+  p {
+    color: #bdbdbd;
+    font-family: 'Roboto';
+}
+
+a{
+    color: yellow;
+
+}

@@ -1,0 +1,23 @@
+body {
+margin:100px;
+background-color: yellowgreen;
+}
+
+h1 {
+margin:100px;
+background-color: white;
+padding: 50px  200px  150px  10px;
+}
+
+
+
+h2 {
+margin: 150px;
+background-color: red;
+text-align: center; /*Alinhamento do texto*/
+border: double 10px black;
+border-radius: 10px; /*Arredondar borda*/
+font-size: 50px;
+}
+
+/* Border (borda): solid / dotted / dashed / double */ 
