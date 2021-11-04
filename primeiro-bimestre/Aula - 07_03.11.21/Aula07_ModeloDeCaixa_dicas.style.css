@@ -1,0 +1,58 @@
+* { /*reset  */
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+div {
+    width: 300px;
+    background-color: blue;
+
+}
+
+a {background-color: black;}
+
+button {
+border: 5px red double;
+border-radius: 8px;
+/* Border (borda): solid / dotted / dashed / double */ 
+
+}
+
+h1 {
+margin:100px;
+background-color: red;
+padding: 50px /*TOP*/ 200px /*BOTTOM*/ 150px /*LEFT*/ 10px /*RIGTH*/;
+height: 200px; /* ALTURA */
+width: 200px; /* LARGURA*/
+
+}
+
+/*padding = gera uma "margem" entre a borda e o elemento %%% em toda a caixa*/
+
+/*somente com 1 px*/
+/*padding: 24 px (cima/baixo/esq/dir) é = p/todos*/
+
+/*somente com dois px*/
+/*padding: 24 px (cima/baixo) 70px (esq/dir)*/
+
+/*somente com três px*/
+/*padding: 24 px (cima) 70px (esq/dir) 50px (bottom)*/
+
+/*somente com quatro px*/
+/*padding: 24 px (cima*top) 70px (dir) 50px (bottom/baixo) 30px (esquerda)*/
+
+
+
+h2 {
+margin: 150px;
+background-color: red;
+text-align: center; /*Alinhamento do texto*/
+border: double 10px black;
+border-radius: 10px; /*Arredondar borda*/
+font-size: 50px;
+}
+
+/* Border (borda): solid / dotted / dashed / double */ 
