@@ -37,3 +37,17 @@ header {
 
 }
 
+.c02 {
+
+    position: fixed;
+    bottom: 50px;
+    left: 550px; 
+}
+
+.c03 {
+
+    position:absolute ;
+    left: 85%;
+    top: 0%;
+
+}
