@@ -1,0 +1,50 @@
+* {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+main {
+
+    height: 2000px;
+
+
+}
+header {
+
+    width: 100%;    
+    background-color: green;
+    position: fixed;
+    z-index: 20; /*pra ficar sobre todo mundo "camada"*/
+}
+
+.square {
+
+    width: 200px;
+    height: 200px;
+    margin-bottom: 12px;
+}
+
+.first-square {
+
+    background-color: rgb(224, 71, 255);
+}
+
+
+.second-square {
+
+    background-color: rgb(48, 185, 185);
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    bottom: 24px;
+    right: 24px;
+}
+
+.third-square {
+    background-color: rgb(50, 202, 75);
+    position: relative;
+}
+
+

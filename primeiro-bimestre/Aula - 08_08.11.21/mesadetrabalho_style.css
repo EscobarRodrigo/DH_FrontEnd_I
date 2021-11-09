@@ -1,0 +1,39 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+
+    height: 2000px;
+
+
+}
+
+header {
+
+    width: 100%;    
+    background-color: green;
+    position: fixed;
+    z-index: 20; /*pra ficar sobre todo mundo "camada"*/
+}
+.caixa {
+
+    width: 200px;
+    height: 200px;
+    background-color: silver;
+    padding: 24px;
+    margin-bottom: 12px;
+
+}
+
+.caixa-interna {
+
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+
+}
+
