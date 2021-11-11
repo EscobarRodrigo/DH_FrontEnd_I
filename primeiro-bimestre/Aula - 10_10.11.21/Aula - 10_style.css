@@ -1,0 +1,61 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+body {
+
+    margin: 20px;
+    background-image: url(https://i.pinimg.com/originals/9f/a8/51/9fa851c0a0189c56bb0416054221234e.jpg);
+    width: 600px;
+    background-size: cover;
+ 
+    
+    
+
+}
+header {
+    
+    height: 20px;
+    position: fixed;
+    z-index: 20; /*pra ficar sobre todo mundo "camada"*/
+}
+h1  {
+
+    color: rgb(17, 17, 17);
+    
+    }
+
+
+.logo {
+
+    width: 258px;
+    height: 260px;
+    position: fixed;
+    padding: 40px;
+    right: 20px;
+    background-image: url(https://auroraantiespecista.com.br/wp-content/uploads/2018/07/cropped-37611958_267762517365359_5651336707019112448_n.png);
+    border-radius: 10px;
+
+}
+
+img {
+    position: absolute;
+    right: 250px;
+}
+
+
+form {
+
+font-size: 20px;
+
+}
+
+
+

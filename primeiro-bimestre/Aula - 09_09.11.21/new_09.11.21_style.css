@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+    
+}
+
+html{
+
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    background-color: black;
+    background-image: url("https://img.restaurantguru.com/c47f-Restaurant-Aurora-Restaurante-Antiespecista-photo-2.jpg");
+    
+}
+
+.main-menu {
+
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(12px);
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 50;
+ 
+}
+
+.main-menu ul a {
+
+    color: rgba(255,255,255,0.5);
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+
+.main-menu ul a:hover { /*mouse por cima*/
+    color: white;
+
+}
+
+
+main {
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.socials{
+
+    margin-top: 0;
+    top: auto;
+
+}
+.socials a {
+    
+    text-decoration: none;
+
+    }
+    
+    .socials a img {
+    
+    width: 60px;
+    opacity: 0.5;
+    position: fixed;
+    right: 0;
+    
+    }

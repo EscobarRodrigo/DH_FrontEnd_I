@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula10_Formulários</title>
+    <link rel="stylesheet" href="./Aula - 10_style.css">
+</head>
+<body>
+<!---->
+    <main>
+
+        <header"> 
+            
+            <div class="logo">
+                                
+                <a href="https://www.instagram.com/auroraantiespecista/" target="_blank">
+
+                    <img src="https://img.icons8.com/color/96/000000/vegan-clothing.png"/>
+                </a>
+
+            </div>
+
+        </header>
+
+        <form action="http://apolloit.com.br/processar.php" method="GET">
+
+            <h1>Cadastro de Usuário</h1>
+
+            <div>
+                 <label for="username">Nome Completo</label> <!--serve p/ rotular = usuário irá visualiar na tela para que ele possa compreender melhor o que deve realizar  **FOR "casa" com o ID-->
+                <input type="text" name="username" id="username" placeholder="Informe o seu Nome">
+                <!--TYPE cria caixa p/ o usuário escrever // quando não for e-mail ou telefone-->
+                <!--NAME & ID sempre usar a mesma declaração/nome-->
+                <!--NAME a informação vai para o servidor-->
+                <!--PLACEHOLDER utilizado para questão de "acessibilidade/amigavél com usuário"-->
+            </div>
+
+            <div>
+                <label for="userEmail">E-mail</label>
+                <input type="email" name="userEmail" id="userEmail">
+            </div>
+
+
+            <div>
+                <label for="userPassword">Senha</label>
+                <input type="password" name="userPassword" id="userPassword">
+            </div>
+
+            <div>
+                <label for="userDescription">Depoimento</label>
+                <textarea name="userDescription" id="userDescription" id= "userDescription"></textarea>
+            </div>
+
+            <div>
+                <label for="pratoSelecionado">Prato Escolhido</label>
+                <select name="pratoSelecionado" id="pratoSelecionado">
+                    <option value="1">Feijoada Vegana</option>
+                    <option value="2">Lasanha Bolonhesa Vegana</option>
+                    <option value="3">"Bife" à Parmegiana Vegano</option>
+                </select>
+            </div>
+
+            <button type="reset">Limpar Formulário</button>
+            <!--a utilização do type "reset" realmente LIMPA os dados (pois o usuário desejou cancelar aquelas informações)-->
+
+            <button type="submit">Cadastrar</button>
+            <!--SUBMIT = quando quero enviar a informação apra o servidor. Ao clicar no botão, ele limpa, pois se entende que já enviou as informações para o servidor e está "aberto" p/ novos dados (mas não é uma função dele)-->
+            <!---->
+            <!---->
+            
+
+
+        </form>
+
+
+
+
+    </main>
+
+
+
+
+
+
+</body>
+</html>
