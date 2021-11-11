@@ -9,41 +9,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Mohave:ital,wght@1,500&family=Nanum+Gothic&family=Source+Sans+Pro&display=swap');
 
 
-
 body {
 
-    text-align: center;
-    background-image: url(http://www.rodosoft.com.br/wp-content/uploads/2017/01/Rodoviarias-porto-alegre-turismo-rs-poa.jpg);
-    background-size: cover;
-    width: 2000px;
-    margin: 0 auto;
+  background-image: url(http://www.rodosoft.com.br/wp-content/uploads/2017/01/Rodoviarias-porto-alegre-turismo-rs-poa.jpg);
+  background-size: cover;
+  margin: 0 auto;
 
 }
+
+header {
+  max-width: 100%;
+  opacity: 0.7;
+  text-align: center;
+  
+  }
 
 
 h1 {
 
+    padding: 12px;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 20, 20);
     font-size: 30px;
     font-style:italic;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+    /* text-align: center; */
     /* backdrop-filter: blur(12px); */
-    width: 100%;
-    padding: 10px;
-    position: fixed;
-    opacity: 0.7;
 
 }
 main {
 
-    padding: 60px;
+    padding: 20px;
     color: rgba(0, 0, 0, 0.993);
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
-    font-style: oblique;
+    /* font-style: oblique; */
     position: fixed;
     margin: 0 auto;
     background-repeat: no-repeat;
@@ -54,34 +55,30 @@ main {
 }
 
 #marcaTexto {
-    background-color: #4ed697b6;
+    background-color: #000000;
+    color: white;
+    border-radius: 3px;
+    opacity: 0.5;
+    font-style: italic;
   }
-
 
 iframe {
 
-    /* width: 720px;
-    height: 1280px; */
-    
-    width: 50%;
-    height: 60%;
-    position: absolute;
-    left: 480px;
-    margin-top: 20px; 
-   
-} 
+  margin: 20px;
+  align-items: center;
 
 
-
+}
 
 
 .curiosidades {
 
+    
     color: #ffffff;
-    margin-top: 600px;
     text-align: center;
-    padding-left: 20px;
     background-position: center;
+    justify-content: center; 
+
 }
 
 li {
