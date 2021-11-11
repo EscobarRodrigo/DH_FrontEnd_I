@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Mohave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kings&family=Mohave:ital,wght@1,500&family=Nanum+Gothic&family=Sacramento&family=Shadows+Into+Light&family=Source+Sans+Pro&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 * {
     margin: 0;
@@ -11,8 +13,8 @@ body {
   background-image: url(http://www.rodosoft.com.br/wp-content/uploads/2017/01/Rodoviarias-porto-alegre-turismo-rs-poa.jpg);
   background-size: cover;
   margin: 0 auto;
-  font-family: 'Mohave', sans-serif;
   
+
 }
 
 header {
@@ -25,14 +27,17 @@ h1 {
   padding: 12px;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 20, 20);
-  font-size: 30px;
+  font-size: 45px;
+  font-family: 'Sacramento';
+  
   
 }
 main {
   padding: 20px;
-  color: rgba(0, 0, 0, 0.993);
+  color: rgba(50, 61, 51, 0.993);
   text-align: center;
   font-size: 18px;
+  font-family: 'Kalam'; 
   margin: 0 auto;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -41,7 +46,7 @@ main {
 }
 
 #marcaTexto {
-  background-color: #000000;
+  background-color: #3a2f2f;
   color: white;
   border-radius: 3px;
   opacity: 0.5;
@@ -51,16 +56,34 @@ main {
 iframe {
   margin: 20px;
   align-items: center;
+  
 }
 
 
 .curiosidades {
-  color: #ffffff;
+  color: #920404;
+  font-size: 20px;
   text-align: center;
   background-position: center;
   justify-content: center; 
+  font-family: 'Mohave';
+  background-color: #000000;
+  background-size: cover;
+  opacity: 0.9;
+  padding: 10px;
+  max-width: 100%;
+  border-radius: 10px;
+
+  
+
 }
 
 li {
   list-style: none;
+}
+
+a {
+
+  
+
 }
