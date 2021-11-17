@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+fieldset {
+
+    border: none;
+    margin: 10px;
+}
+
+body {
+
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5d3318ccd8419c0001215a22/1589051362975-BYDI3TM334XOZCWX104P/nani-rodrigues-brejo-ciao-13.jpg?format=500w);
+    background-size: cover;
+    margin: 0 auto;
+
+  }
+
+  main {
+
+    padding: 10px;
+    color:#faf8f8;
+    /* text-align: center; */
+    font-size: 14px;
+    font-family: 'Swap'; 
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+
+  }
