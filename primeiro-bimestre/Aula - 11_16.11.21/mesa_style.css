@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline:0; 
   }
 
 fieldset {
@@ -23,7 +24,7 @@ body {
   main {
 
     padding: 10px;
-    color:#faf8f8;
+    color:#b3a6a6;
     /* text-align: center; */
     font-size: 14px;
     font-family: 'Swap'; 
@@ -34,3 +35,70 @@ body {
     background-size: cover;
 
   }
+
+  .button-clean:hover {
+
+    transition: 0.5s;
+    background-color: #c35743d5;
+  }
+
+  .button-buy:hover {
+
+    transition: 0.5s;
+    background-color: #35be23be;
+  }
+
+  
+
+.recomendation::first-letter {
+
+  font-size: 35px;
+}
+
+
+.custom-input:focus {
+
+  background-color: rgb(215, 218, 183);
+}
+
+/* .main-header ul li:nth-child(3n):hover {
+
+  background-color:red;
+
+} */
+/*incluindo o N ele ira colorir de 3 em 3*/
+/* odd=impares e even = pares*/
+
+.checkbox:hover {
+
+  width: 25px;
+  height: 25px;
+  transition: 0.5s;
+ 
+
+}
+
+
+.bottom ul {
+
+  list-style: none;
+
+}
+
+.bottom ul li {
+
+  width: 20px;
+  background-color: #574864;
+  background-size: cover;
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  display: flex;
+  position: relative;
+}
+
+.bottom ul li :nth-child(1) {
+
+  background-color: red;
+}

@@ -20,8 +20,8 @@
             <legend>Dados Pessoais</legend>
 
             <div>
-                <label for="username">Nome Completo</label>
-                <input type="text" name="username" id="username">
+                <label  for="username">Nome Completo</label >
+                <input class="custom-input" type="text" name="username" id="username" placeholder="Digite o seu nome">
             </div>
 
             <div>
@@ -134,24 +134,34 @@
             </fieldset>
 
             <fieldset>
-                <legend>Recomendados</legend>
+                <legend class="recomendation">Recomendados</legend>
 
-                <input type="checkbox" name="recommended" id="firstProduct">
+                <input class="checkbox" type="checkbox" name="recommended" id="firstProduct">
                 <label for="firstProduct">Pizza Doce</label>
 
-                <input type="checkbox" name="recommended" id="secondProduct">
+                <input class="checkbox" type="checkbox" name="recommended" id="secondProduct">
                 <label for="secondProduct">Refrigerante</label>
 
-                <input type="checkbox" name="recommended" id="thirdProduct">
+                <input class="checkbox" type="checkbox" name="recommended" id="thirdProduct">
                 <label for="thirdProduct">Água</label>
 
                 <!-- CHECKBOX pode selecionar mais de uma opção -->
+            </div>
+
+            <div class="bottom">
+                <ul>
+                    <li>Pizzas</li>
+                    <li>Veganas</li>
+                    <li>Caseias</li>
+                </ul>
 
             </div>
+
+
         </fieldset>
 
-            <button type="reset">Limpar</button>
-            <button type="submit">Comprar</button>
+            <button class="button-clean" type="reset">Limpar</button>
+            <button class="button-buy" type="submit">Comprar</button>
 
         </form>
 
