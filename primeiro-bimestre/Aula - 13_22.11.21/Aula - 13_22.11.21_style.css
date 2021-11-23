@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    outline: 0; /* não "estilizar" o input via html */
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+body {
+
+    background-color:#131313;
+
+}
+
+
+main {
+
+    padding: 72px;
+
+}
+
+/*ANIMAÇÃO*/
+@keyframes float {
+
+    0% {
+        opacity: 0;
+        transform: translate(0,-50px);
+    }
+    50% {
+        opacity: 1;
+        transform:translate(0,50px) /*mesa de trabalho posso tirar esse*/
+    }
+    100% {
+        opacity: 0;
+        transform:translate(0,-50px) rotate(25deg);
+    }
+    
+
+
+}
+
+
+.ghost{
+
+    font-size: 200px;
+    text-align: center;
+    display: block;
+    margin-bottom: 32px;
+    animation-name: float; /*vinculando animação*/
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+.main-button {
+
+    color:white;
+    border: 0;
+    padding: 24px;
+    font-size: 24px;
+    border-radius: 12px;
+    background-color: #5ac4e4;
+    transition: .5s ease-in-out; 
+    /*background*/
+
+    /* transition-duration: 2s; */
+    /* transition-delay: 1s; */
+    /* transition-property: background,padding; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-out; */
+    /* transition-timing-function: ease-in-out; */
+
+    /* transform-origin: bottom right; */
+}
+
+.main-button:hover {
+
+    color:black;
+    background-color: #bee9f6;
+    transform:rotate(120deg);
+    /* padding: 32px; */
+
+    /*
+    SCALE  quanto ele vai escalonar
+    SKEW   mexe no ângulo (30deg por exemplo)
+    ROTATE realiza a rotação
+    TRANSLATE transição p/ esquerda (negativo) e direita (positivo)
+    */
+    /* transform:scale(1.05) skew(10deg) rotate(-5deg); */
+
+/*     
+    1º esq/dir (horizontal) 
+    2º cima(negativo)baixo(posito) = vertical
+   
+    transform: translate(0px,8px); */
+    
+}
+
+p {
+    color:white;
+    font-size: 22px;
+    margin: top 24px;
+
+}

@@ -1,0 +1,86 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    outline: 0; /* não "estilizar" o input via html */
+    box-sizing: border-box;
+    /* font-family: 'Open Sans', sans-serif; */
+
+}
+
+body {
+
+    background-color:#131313;
+    
+}
+
+main {
+
+    padding: 20px;
+    
+}
+
+@keyframes bola8 {
+
+    0% {
+        opacity: 0;
+        transform: translate(-50px);
+    }
+
+    
+    100% {
+        opacity: 1;
+        transform:translate(1400px) rotate(180deg);
+    }
+    
+}
+
+.bola8 {
+
+    width: 100px;
+    text-align: left;
+    display: block;
+    margin-bottom: 32px;
+    animation-name: bola8; /*vinculando animação*/
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+/* 
+.bola2 {
+
+    transform: translate(20px, 90deg);
+
+} */
+
+
+.bola2:hover {
+
+    transform: translate(-10px,8px);
+    transform:rotate(90deg);
+}
+
+a {
+
+    margin-left: 150px;
+
+}
+
+.pix {
+
+    color:white;
+    border: 0;
+    padding: 18px;
+    font-size: 24px;
+    border-radius: 12px;
+    background-color: #578f60;
+    transition: .5s ease-in-out;
+}
+
+.pix:hover {
+
+    color:black;
+    background-color: #d6ebf1;
+    transform:rotate(120deg);
+    padding: 10px;
+}
