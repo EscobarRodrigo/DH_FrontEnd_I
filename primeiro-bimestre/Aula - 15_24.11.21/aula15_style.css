@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0; 
+    /* não "estilizar" o input via html */
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas:
+    /*1º linha + 1º e 2º colunas*/
+    'main-header main-header' 
+    
+    /*2º linha + 1º coluna // /*1º linha x 2º coluna*/
+    'main-aside  main-content'
+
+    /*3º linha x 1º e 2º colunas*/
+    'main-footer main-footer'
+    ;
+
+}
+
+header {
+
+    background-color: lightseagreen;
+    grid-area: main-header;
+    
+
+}
+
+img {
+
+    height: 100px;
+
+
+}
+
+.main-header ul {
+
+    display: flex;
+    
+    
+}
+
+
+aside {
+
+    background-color:lightslategray;
+    grid-area: main-aside;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+
+}
+
+aside ul {
+
+    list-style: none;
+    text-decoration: none;
+
+}
+
+main {
+
+    background-color: lightsalmon;
+    height: 300px;
+    grid-area: main-content;
+
+
+}
+
+footer {
+
+    background-color: rgb(178, 127, 32);
+    grid-area: main-footer;
+    height: 35px;
+
+}
