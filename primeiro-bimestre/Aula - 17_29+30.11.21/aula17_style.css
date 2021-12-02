@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0; 
+    /* não "estilizar" o input via html */
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
