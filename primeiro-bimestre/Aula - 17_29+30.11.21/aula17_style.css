@@ -8,3 +8,237 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+
+body {
+
+    display: grid;
+    grid-template-columns: 1fr 500px ;
+    grid-template-areas:
+    /*1º linha + 1º e 2º colunas*/
+    'main-header main-header' 
+    
+    /*2º linha + 1º coluna // /*1º linha x 2º coluna*/
+    'main-content main-aside'
+
+    /*3º linha x 1º e 2º colunas*/
+    'main-content main-aside'
+    ;
+
+}
+
+header {
+
+    background-color: rgb(167, 60, 60);
+    grid-area: main-header;
+    padding: 4px;
+    width: 100%;
+    max-height: 100%;
+    text-align: right;
+    opacity: .9;
+    position: fixed;
+    
+    
+}
+
+header img {
+
+    
+    height: 40px;
+  
+}
+
+main {
+
+    
+    grid-area: main-content;
+   
+}
+
+
+main img{
+
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    object-fit: cover;
+   
+
+}
+main h1  {
+
+    font-size: 18px;
+    padding-left: 5px;
+   
+
+}
+
+
+main p {
+
+    font-size: 12px;
+    padding-left: 15px;
+
+}
+
+
+aside {
+
+    color: white;
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    grid-area: main-aside;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section {
+
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 5px;
+
+}
+
+section img {
+
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+section div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    
+    }
+
+div .infos h1 {
+
+    font-size: 20px;
+}
+
+div .infos h2 {
+
+    font-size: 15px;
+}
+
+div .infos2 h3 {
+
+    font-size: 12px;
+}
+
+div .infos2 p {
+
+    font-size: 10px;
+}
+
+
+
+.main-title {
+
+color: blue;
+
+
+}
+
+@media (max-width: 1024px){ /*caso eu diminua a tela, muda a cor do título*/
+    
+    body {
+
+        grid-template-columns: 100% ;
+        grid-template-areas:
+        'main-header' 
+        'main-content'
+        'main-aside'
+
+    } 
+    main img{
+
+    
+        width: 100%;
+        height: auto;
+        display: flex;
+        object-fit: cover;
+    
+    
+    }
+}
+
+    @media (max-width: 768px){ /*caso eu diminua a tela, muda a cor do título*/
+    
+        body {
+    
+            grid-template-columns: 100% ;
+            grid-template-areas:
+            'main-header' 
+            'main-content'
+            'main-aside'
+    
+        }
+
+        main h1  {
+
+            font-size: 16px;
+            padding-left: 5px;
+           
+        
+        }
+        
+        
+        main p {
+        
+            font-size: 10px;
+            padding-left: 5px;
+        
+        }
+
+
+    }
+        @media (max-width: 425px){ /*caso eu diminua a tela, muda a cor do título*/
+    
+            body {
+        
+                grid-template-columns: 100% ;
+                grid-template-areas:
+                'main-header' 
+                'main-content'
+                'main-aside'
+        
+            }
+
+        }
+
+    /* aside {
+
+        display: none; /*quando quero SUMIR com a informação, no momento que estou diminuindo
+    } */
+
+    @media (max-width: 320px){ /*caso eu diminua a tela, muda a cor do título*/
+    
+        body {
+    
+            grid-template-columns: 100% ;
+            grid-template-areas:
+            'main-header' 
+            'main-content'
+            'main-aside'
+    
+        }
+
+       div.infos h1 {
+           font-size: 14px;
+    
+    }
+
+    div.infos h2 {
+        font-size: 12px;
+ 
+ }
+}
