@@ -99,7 +99,7 @@ height: 100vh;
 
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
-background-position: center;
+background-position: top;
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -113,8 +113,8 @@ background-size: cover;
 }
 
 .sobre {
-  height: 450px;
-  /* margin-top: 135px; */
+  height: 300px;
+  margin-top: 135px;
   backdrop-filter: blur(3px);
   background: #0b5ad1ab;
 }
