@@ -1,0 +1,20 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  /* não "estilizar" o input via html */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-content {
+  background-color: aqua;
+  padding: 12px;
+}
+
+.main-content img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
