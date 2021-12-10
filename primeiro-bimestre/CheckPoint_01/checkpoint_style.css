@@ -30,17 +30,37 @@ header {
   max-width: 100%;
   opacity: 0.9;
   text-align: center;
-  
+ 
 }
 
-h1 {
+nav  {
+  
+  width: 100%;
   padding: 12px;
   background-color: rgb(0, 0, 0);
   color: #B9BF04;
-  font-size: 45px;
+  font-size: 20px;
   font-family: 'Open Sans Condensed';
-  
+  top: 0;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+nav ul {
+  display: flex;
+  list-style: none;
+
+
+
+.links {
+  text-align: right;
+}
+
+
+
+
 main {
   padding: 20px;
   color:black;
@@ -105,7 +125,9 @@ a {
 
   text-decoration: none;
 
+}
 
+p {
 
-
+  padding-top: 60px;
 }
